@@ -9,4 +9,11 @@ export const enum SignatureAlgorithmEnumType {
 
 export const enum CountryNameEnumType {
   US = 'US',
+  NG = 'NG',
+  CA = 'CA',
+  GB = 'GB',
+  DE = 'DE',
+  ZA = 'ZA',
+  KE = 'KE',
+  GH = 'GH',
 }

@@ -6,7 +6,7 @@ import { z } from 'zod';
 import { BaseSchema } from './types/base.dto.js';
 
 export const SignatureAlgorithmSchema = z.enum(['SHA256withRSA', 'SHA256withECDSA']);
-export const CountryNameSchema = z.enum(['US']);
+export const CountryNameSchema = z.enum(['US', 'NG', 'CA', 'GB', 'DE', 'ZA', 'KE', 'GH']);
 
 export type SignatureAlgorithm = z.infer<typeof SignatureAlgorithmSchema>;
 export type CountryName = z.infer<typeof CountryNameSchema>;
